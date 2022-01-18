@@ -1,0 +1,12 @@
+Operator *,-,/,+,5
+Value 'Hello', -88.88, 5
+Variable : spam
+String:'spam'
+#Name three data types
+Intergers, float-point and strings
+#what is an expression made of. What do all expressions do?
+An expression is an instruction that combines values and operators and always evaluates down to a single value.
+#What does the variable bacon contain after running the the code below
+bacon = 20
+bacon + 1
+The bacon variable is set to 20.The bacon + 1 expression does not reassign the value in bacon(that would need an assignment statement bacon = bacon + 1)
