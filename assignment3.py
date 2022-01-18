@@ -1,16 +1,15 @@
-In [40]: print("Good morning folks")
+#This is third assignment on python
+print("Good morning folks")
 Good morning folks
 
-In [41]: #This is a comment
+#This is a comment
 
-In [42]: x = 5
-
-In [43]: print(x)
+x = 5
+print(x)
 5
 
-In [44]: #.py
+#.py
 
-In [45]: x = float(8.6)
-
-In [46]: print(x)
+x = float(8.6)
+print(x)
 8.6
