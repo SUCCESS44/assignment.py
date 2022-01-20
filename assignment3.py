@@ -1,6 +1,5 @@
 #This is third assignment on python
 print("Good morning folks")
-Good morning folks
 
 #This is a comment
 
