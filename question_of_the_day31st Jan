@@ -3,11 +3,11 @@ A relative path refers to a location that is relative to a current directory. It
 #What does an absolute path start with??
 An absolute path always contains the root element and the complete directory list required to locate the file.
 #what are the 3 mode arguments that can be passed to the open() function?
-To open a file in write mode, “w” is specified. When mode “w” is specified, it creates an empty file for output operations. What if the file already exists? If a file with the same name already exists, its contents are discarded and the file is treated as a new empty file
 "r" - Read - Default value. Opens a file for reading, error if the file does not exist
 "a" - Append - Opens a file for appending, creates the file if it does not exist
 "w" - Write - Opens a file for writing, creates the file if it does not exist
 #What happens if an existing file is opened in write mode
+To open a file in write mode, “w” is specified. When mode “w” is specified, it creates an empty file for output operations. What if the file already exists? If a file with the same name already exists, its contents are discarded and the file is treated as a new empty file
 #what is the difference between the read() and the readlines() methods
 The .read() would treat each character in the file separately, meaning that the iteration would happen for every character.
 The readline() function, on the other hand, only reads a single line of the file
