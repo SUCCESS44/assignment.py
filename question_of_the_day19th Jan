@@ -1,0 +1,24 @@
+#What are the two values of a boolean data type
+boolean data type: true and false
+a = true
+type(a)
+b = false
+type(b)
+#What are the three boolean operators? 
+Three boolean operators: AND, OR, NOT or AND NOT
+#Write out the truth tables of both boolean operators i.e every possible combination of boolean values and their result. 
+condition 1 (e.g., X):false, false, true, true
+condition 2 (e.g., Y):false, true, false, true
+NOT X ( ~ X ):true, true, false, false
+X AND Y ( X && Y ):false, false, false, true
+#What are the six comparison operators.
+equal to, not equal to, greater than, greater than or equal to, less than, and less than or equal to.
+#What is the difference between the equal operator and the assignment operator
+The “=” is an assignment operator is used to assign the value on the right to the variable on the left.
+#question_of_the_day20th jan 
+#Why are functions advantages to have in your programs
+The advantages of using functions are: Reducing duplication of code. Decomposing complex problems into simpler pieces. Improving clarity of the code
+The code in a function is executed when it is called.
+A function is created with the def keyword.The statements in the block of the function must be indented. The def keyword is followed by the function name with round brackets and a colon
+#If a function does not have a return value, what is the return value when the function is called?   
+It returns none

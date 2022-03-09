@@ -1,0 +1,9 @@
+#Why is eggs a valid variable but 100 is not?
+Because variable names cannot begin with a number
+#what 3 functions can be used to get the integer, floating point number or string version of a value
+int(), float(), str()
+#Why does the following expression result in an error? How can you fix it. 'I have eaten ' + 99 + ' burritos'
+The expression causes an error because 99 is an integer, and only strings can be concatenated to other strings with the + operator. The correct way is I have eaten ' + str(99) + ' burritos.
+#if you have a function named fufu() inside of a module named lunch, how will you call it after importing lunch?
+#what goes in the try clause, what goes in the except clause of a function
+In the try clause, all statements are executed until an exception is encountered. except is used to catch and handle the exception(s) that are encountered in the try clause. else lets you code sections that should run only when no exceptions are encountered in the try clause

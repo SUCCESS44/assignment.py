@@ -1,0 +1,24 @@
+#when we talk about relative paths, what is the relative path relative to??
+A relative path refers to a location that is relative to a current directory. It is relative to a current directory.
+#What does an absolute path start with??
+An absolute path always contains the root element and the complete directory list required to locate the file.
+#what are the 3 mode arguments that can be passed to the open() function?
+"r" - Read - Default value. Opens a file for reading, error if the file does not exist
+"a" - Append - Opens a file for appending, creates the file if it does not exist
+"w" - Write - Opens a file for writing, creates the file if it does not exist
+#What happens if an existing file is opened in write mode
+To open a file in write mode, “w” is specified. When mode “w” is specified, it creates an empty file for output operations. What if the file already exists? If a file with the same name already exists, its contents are discarded and the file is treated as a new empty file
+#what is the difference between the read() and the readlines() methods
+The .read() would treat each character in the file separately, meaning that the iteration would happen for every character.
+The readline() function, on the other hand, only reads a single line of the file
+#what is the function that creates regex objects?
+The re. compile() function returns Regex objects.
+#Why are raw strings often used when creating regex objects?
+Raw strings are used so that backslashes do not have to be escaped
+#What does the search() method return?
+The search() method returns an integer representing the position of the first character of search_expression found in string
+#In the regex created from r'(\d\d\d)-(\d\d\d-\d\d\d\d)', what does group 0 cover? group1?, group2?
+Group 0 is the entire match, group 1 covers the first set of parentheses, and group 2 covers the second set of parentheses.
+#Parentheses and periods have specific meanings in regular expressions. How will you specify that you want a regex to match actual parenthesis and period characters?
+Periods and parentheses can be escaped with a backslash: \., \(, and \).
+
